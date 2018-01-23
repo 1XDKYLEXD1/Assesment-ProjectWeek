@@ -25,4 +25,9 @@ public class Note : MonoBehaviour
             m_rigibody.velocity = new Vector2(m_speed, 0);
         }
 	}
+
+    public void Stop()
+    {
+        m_rigibody.velocity = Vector2.zero;
+    }
 }
