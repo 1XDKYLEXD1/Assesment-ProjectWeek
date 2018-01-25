@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Kyle/GamePlayTesting.unity
+    guid: 7ed08f8ce1cb07b41ba604fbec92a65a
