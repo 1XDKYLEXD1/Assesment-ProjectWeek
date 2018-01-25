@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: e977e90f7b37a154faefd70b8d89374c
-timeCreated: 1516868994
+timeCreated: 1516873485
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Life_Alive
     21300002: Life_Ded
+    21300004: Empty
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -90,7 +91,7 @@ TextureImporter:
         width: 11
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -103,6 +104,20 @@ TextureImporter:
         y: 96
         width: 11
         height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Empty
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 91
+        width: 74
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

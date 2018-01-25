@@ -15,6 +15,7 @@ public class TooLateHitter : MonoBehaviour
         if (collision.CompareTag("Note"))
         {
             Debug.Log("Too Late");
+            m_score.PlayTooLate();
             m_score.TakeDamage();
             m_notemanager.RemoveNote();
         }
