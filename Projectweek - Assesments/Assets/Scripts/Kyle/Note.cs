@@ -8,26 +8,35 @@ public class Note : MonoBehaviour
 
     [SerializeField]
     float m_speed;
-    
-	void Start ()
+
+    bool m_gameover;
+
+    void Start ()
     {
         m_rigibody = GetComponent<Rigidbody2D>();
 	}
-	
-	void Update ()
+
+    void Update()
     {
         //m_rigibody.velocity = new Vector2(Mathf.Clamp(m_rigibody.velocity.x, 0, -0.4f), 0);
 
         m_rigibody.velocity += new Vector2(m_speed, 0);
 
-        if (m_rigibody.velocity.x < m_speed)
+        if (m_gameover == false)
         {
-            m_rigibody.velocity = new Vector2(m_speed, 0);
+            if (m_rigibody.velocity.x < m_speed)
+            {
+                m_rigibody.velocity = new Vector2(m_speed, 0);
+            }
+        }
+        else
+        {
+            m_rigibody.velocity = Vector2.zero;
         }
 	}
 
     public void Stop()
     {
-        m_rigibody.velocity = Vector2.zero;
+        m_gameover = true;
     }
 }

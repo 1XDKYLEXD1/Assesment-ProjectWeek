@@ -28,10 +28,6 @@ public class GreatHitter : MonoBehaviour
         }
     }
 
-    public GameObject GetHittedNote()
-    {
-        return m_note;
-    }
     public bool HitIsGreat()
     {
         return m_greathit;

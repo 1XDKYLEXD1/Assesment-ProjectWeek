@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: aea83af891b49c245882301fc8dafea3
+timeCreated: 1516905862
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Block_Down_Bitch_PL
+    21300002: Block_Down_Awesome_PL
+    21300004: Attack_Forward_0_PL
+    21300006: Attack_Forward_1_PL
+    21300008: Block_High_Badass_PL
+    21300010: Block_Down_Nice_PL
+    21300012: Block_High_Awesome_PL
+    21300014: Block_Down_Quick_PL
+    21300016: Block_High_Diagonal_PL
+    21300018: Parry_Middle_Quick_PL
+    21300020: Parry_Head_Quick_PL
+    21300022: Swing_PL
+    21300024: Player_Fall_0
+    21300026: Player_Fall_1
+    21300028: Player_Fall_2
+    21300030: Player_Stand
+    21300032: Spirtesheet_Player_16
+    21300034: Spirtesheet_Player_17
+    21300036: Spirtesheet_Player_18
+    21300038: Spirtesheet_Player_19
+    21300040: Spirtesheet_Player_20
+    21300042: Spirtesheet_Player_21
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Block_Down_Bitch_PL
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 232
+        height: 168
+      alignment: 9
+      pivot: {x: 0.47871107, y: 0.608222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Down_Awesome_PL
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 858
+        width: 232
+        height: 166
+      alignment: 9
+      pivot: {x: 0.47243014, y: 0.6007746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_Forward_0_PL
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 858
+        width: 232
+        height: 166
+      alignment: 9
+      pivot: {x: 0.42906216, y: 0.60248834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_Forward_1_PL
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 858
+        width: 232
+        height: 166
+      alignment: 9
+      pivot: {x: 0.3793693, y: 0.59301424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_High_Badass_PL
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 627
+        width: 232
+        height: 188
+      alignment: 9
+      pivot: {x: 0.508925, y: 0.52863586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Down_Nice_PL
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 627
+        width: 232
+        height: 165
+      alignment: 9
+      pivot: {x: 0.47052962, y: 0.58043694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_High_Awesome_PL
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 628
+        width: 232
+        height: 169
+      alignment: 9
+      pivot: {x: 0.47624785, y: 0.5652134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Down_Quick_PL
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 627
+        width: 232
+        height: 165
+      alignment: 9
+      pivot: {x: 0.44564268, y: 0.588757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_High_Diagonal_PL
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 416
+        width: 232
+        height: 179
+      alignment: 9
+      pivot: {x: 0.48384884, y: 0.57180566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Parry_Middle_Quick_PL
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 416
+        width: 232
+        height: 166
+      alignment: 9
+      pivot: {x: 0.46006104, y: 0.5981009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Parry_Head_Quick_PL
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 410
+        width: 232
+        height: 165
+      alignment: 9
+      pivot: {x: 0.42239168, y: 0.59510463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Swing_PL
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 410
+        width: 232
+        height: 182
+      alignment: 9
+      pivot: {x: 0.48050952, y: 0.564922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Fall_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 240
+        width: 227
+        height: 171
+      alignment: 9
+      pivot: {x: 0.44018197, y: 0.607091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Fall_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 241
+        width: 232
+        height: 166
+      alignment: 9
+      pivot: {x: 0.42078558, y: 0.6255462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Fall_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 237
+        width: 232
+        height: 169
+      alignment: 9
+      pivot: {x: 0.42078558, y: 0.6255462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Stand
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 25
+        width: 224
+        height: 182
+      alignment: 9
+      pivot: {x: 0.4856279, y: 0.5509202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

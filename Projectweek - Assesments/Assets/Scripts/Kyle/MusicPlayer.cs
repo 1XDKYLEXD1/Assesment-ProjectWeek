@@ -8,4 +8,9 @@ public class MusicPlayer : MonoBehaviour
     {
         GetComponent<AudioSource>().Play();
 	}
+
+    public void StopAudio()
+    {
+        GetComponent<AudioSource>().Stop();
+    }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public enum ScoreStates
 {
@@ -31,6 +32,9 @@ public class ScoreHandler : MonoBehaviour
     BadHitter m_badhit;
 
     [SerializeField]
+    TooLateHitter m_toolatehitter;
+
+    [SerializeField]
     List<Image> m_lifes;
 
     [SerializeField]
@@ -38,6 +42,15 @@ public class ScoreHandler : MonoBehaviour
 
     [SerializeField]
     Animator m_scoreanimatior;
+
+    [SerializeField]
+    FencingController m_fencingcntrl;
+
+    [SerializeField]
+    MusicPlayer m_musicplayer;
+
+    bool m_playonce;
+    bool m_victory;
 
     void Start()
     {
@@ -49,39 +62,69 @@ public class ScoreHandler : MonoBehaviour
 	
 	void Update ()
     {
-        m_scoreanimatior.SetInteger("State", (int)m_scorestate);
+        //m_scoreanimatior.SetInteger("State", (int)m_scorestate);
 
-        m_text.text = "Score : " + m_score.ToString();
-
-        if(m_dead == false)
+        if(m_victory == false)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            m_text.text = "Score : " + m_score.ToString();
+        }
+
+        if (m_dead == true)
+        {
+            m_text.text = "GameOver!\nPress R To Restart";
+
+            m_notemanager.GameOver();
+            m_musicplayer.StopAudio();
+
+            if (m_playonce == false)
+            {
+                m_fencingcntrl.PlayPlayerDeath();
+                
+                m_playonce = true;
+            }
+
+            if(Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene("GamePlayTesting");
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (m_dead == false)
             {
                 if (m_perfecthit.HitIsPerfect() && m_greathit.HitIsGreat())
                 {
                     m_scoreanimatior.Play("PerfectHit");
+                    m_fencingcntrl.PlayRandomBlock();
                     m_notemanager.RemoveNote();
                     m_score += 20;
                 }
                 else if (m_greathit.HitIsGreat() == true && m_perfecthit.HitIsPerfect() == false)
                 {
                     m_scoreanimatior.Play("GoodHit");
+                    m_fencingcntrl.PlayRandomBlock();
                     m_notemanager.RemoveNote();
                     m_score += 10;
                 }
                 else if (m_greathit.HitIsGreat() == false && m_perfecthit.HitIsPerfect() == false && m_badhit.NoteIsInBadArea())
                 {
                     m_scoreanimatior.Play("Missed");
+                    m_fencingcntrl.PlayRandomPlayerHitted();
                     m_notemanager.RemoveNote();
                     TakeDamage();
                     Debug.Log("Fail");
                 }
+
+                if (m_notemanager.HittedEndNote() && m_dead == false)
+                {
+                    //Gewonnen
+                    m_victory = true;
+                    m_text.text = "YOU WIN!!";
+                    m_musicplayer.StopAudio();
+                    m_fencingcntrl.PlayEnemyDeath();
+                }
             }
-        }
-        else
-        {
-            m_text.text = "GameOver!";
-            m_notemanager.GameOver();
         }
 
         if(m_failcount == 3)
@@ -104,5 +147,6 @@ public class ScoreHandler : MonoBehaviour
     public void PlayTooLate()
     {
         m_scoreanimatior.Play("TooLate");
+        m_fencingcntrl.PlayRandomPlayerHitted();
     }
 }

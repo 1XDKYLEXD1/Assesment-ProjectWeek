@@ -288,7 +288,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AudioPenis.cs" />
     <Compile Include="Assets\Scripts\Kyle\BadHitter.cs" />
+    <Compile Include="Assets\Scripts\Kyle\ButtonController.cs" />
+    <Compile Include="Assets\Scripts\Kyle\FencingController.cs" />
     <Compile Include="Assets\Scripts\Kyle\GreatHitter.cs" />
     <Compile Include="Assets\Scripts\Kyle\MusicPlayer.cs" />
     <Compile Include="Assets\Scripts\Kyle\Note.cs" />

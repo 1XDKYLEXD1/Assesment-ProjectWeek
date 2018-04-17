@@ -8,19 +8,29 @@ public class NoteManager : MonoBehaviour
     [SerializeField]
     List<Note> m_notes;
 
+    [SerializeField]
+    List<Note> m_allnotes;
+
+    bool m_hittedendnote;
+
     public void RemoveNote()
     {
-        if (m_notes.Count != 0)
+        if(m_allnotes[0].name == "EndNote")
         {
-            //m_notes[0].gameObject.SetActive(false);
-            Destroy(m_notes[0].gameObject);
-            m_notes.Remove(m_notes[0]);
+            Destroy(m_allnotes[0].gameObject);
+            m_allnotes.Remove(m_allnotes[0]);
+            m_hittedendnote = true;
+        }
+        else if(m_allnotes.Count != 0)
+        {
+            Destroy(m_allnotes[0].gameObject);
+            m_allnotes.Remove(m_allnotes[0]);
         }
     }
 
     public void GameOver()
     {
-        foreach(Note note in m_notes)
+        foreach(Note note in m_allnotes)
         {
             note.Stop();
         }
@@ -29,5 +39,10 @@ public class NoteManager : MonoBehaviour
     public void AddNote(Note note)
     {
         m_notes.Add(note);
+    }
+
+    public bool HittedEndNote()
+    {
+        return m_hittedendnote;
     }
 }

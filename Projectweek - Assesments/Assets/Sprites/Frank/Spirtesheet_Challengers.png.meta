@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 9c55ba6ad11a73541963589296aa5cdd
+timeCreated: 1516904513
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Attack_1
+    21300002: Block_Normal
+    21300004: Charge_For_Attack
+    21300006: Attack_0
+    21300008: Block_Down_Awesome
+    21300010: Block_High
+    21300012: Down_2
+    21300014: Down_0
+    21300016: Down_1
+    21300018: Block
+    21300020: Attack_Forward_1
+    21300022: Attack_Forward_0
+    21300024: Block_Down_Normal
+    21300026: Block_Down_Bitch
+    21300028: Block_Normal
+    21300030: Block_Down
+    21300032: Block_High_Stand
+    21300034: Swing_Start
+    21300036: Block_Face_Quick
+    21300038: Block_Middle_Nice
+    21300040: Parry_High
+    21300042: Down_2
+    21300044: Down_1
+    21300046: Down_0
+    21300048: Normal_Stand
+    21300050: Spirtesheet_Challengers_16
+    21300052: Spirtesheet_Challengers_17
+    21300054: Spirtesheet_Challengers_18
+    21300056: Spirtesheet_Challengers_19
+    21300058: Spirtesheet_Challengers_20
+    21300060: Spirtesheet_Challengers_21
+    21300062: Spirtesheet_Challengers_22
+    21300064: Spirtesheet_Challengers_23
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack_Forward_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 858
+        width: 232
+        height: 165
+      alignment: 9
+      pivot: {x: 0.65167755, y: 0.6163278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Attack_Forward_0
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 858
+        width: 232
+        height: 165
+      alignment: 9
+      pivot: {x: 0.59258217, y: 0.60524905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Down_Normal
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 859
+        width: 232
+        height: 165
+      alignment: 9
+      pivot: {x: 0.55805653, y: 0.5942161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Down_Bitch
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 856
+        width: 231
+        height: 167
+      alignment: 9
+      pivot: {x: 0.55805653, y: 0.5942161}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Down_Awesome
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 626
+        width: 232
+        height: 170
+      alignment: 9
+      pivot: {x: 0.57828903, y: 0.6102576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Normal
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 626
+        width: 232
+        height: 169
+      alignment: 9
+      pivot: {x: 0.555701, y: 0.59484535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Down
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 627
+        width: 232
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5251346, y: 0.6218924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_High_Stand
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 627
+        width: 232
+        height: 187
+      alignment: 9
+      pivot: {x: 0.50712824, y: 0.5518665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Swing_Start
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 410
+        width: 232
+        height: 187
+      alignment: 9
+      pivot: {x: 0.58651155, y: 0.53623545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Face_Quick
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 410
+        width: 232
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5570718, y: 0.53860635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Block_Middle_Nice
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 416
+        width: 232
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5260762, y: 0.5392352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Parry_High
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 416
+        width: 232
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5360531, y: 0.5420976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Down_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 221
+        width: 232
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5805944, y: 0.57437295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Down_1
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 223
+        width: 232
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5920031, y: 0.57791156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Down_0
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 223
+        width: 232
+        height: 187
+      alignment: 9
+      pivot: {x: 0.56633365, y: 0.6097587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Normal_Stand
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 25
+        width: 232
+        height: 181
+      alignment: 9
+      pivot: {x: 0.50080293, y: 0.56576127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
